@@ -9,6 +9,6 @@ dotenv.config();
 export default defineConfig({
   plugins: [react()],
   define: {
-    'process.env': process.env,
+    'process.env': import.meta.env.VITE_API_KEY,
   },
 })
