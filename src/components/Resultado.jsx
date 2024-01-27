@@ -41,7 +41,7 @@ const Resultado = () => {
         <div className="contenedor clima">
             <h2>El clima de {name} es: </h2>
             { <img className="imagen-clima"
-                src={`/public/${imageName}`}
+                src={`/${imageName}`}
                 alt={`Icono de clima para ${weather && weather[0] && weather[0].description}`}
             /> }
             <p>
